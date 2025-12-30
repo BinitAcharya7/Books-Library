@@ -116,7 +116,7 @@ function getBooks() {
           url: 'assets/book-1.jpeg',
           originalPrice: 1500,
           salePrice: 755,
-          rating: 4.5,
+          rating: 3,
         },
         {
           id: 5,
@@ -132,7 +132,7 @@ function getBooks() {
           url: 'assets/book-3.jpeg',
           originalPrice: 2600,
           salePrice: 1050,
-          rating: 5,
+          rating: 3.5,
         },
         {
           id: 7,
@@ -148,7 +148,7 @@ function getBooks() {
           url: 'assets/book-5.jpeg',
           originalPrice: 2090,
           salePrice: 863,
-          rating: 4.5,
+          rating: 2,
         },
         {
           id: 9,
@@ -156,7 +156,7 @@ function getBooks() {
           url: 'assets/book-6.jpeg',
           originalPrice: 1785,
           salePrice: null,
-          rating: 4,
+          rating: 3.5,
         },
         {
           id: 10,
@@ -173,6 +173,14 @@ function getBooks() {
           originalPrice: 965,
           salePrice: null,
           rating: 4.5,
+        },
+        {
+          id: 12,
+          title: "Can't Hurt Me",
+          url: 'assets/david goggins.jpeg',
+          originalPrice: 3450,
+          salePrice: 1787,
+          rating: 5,
         },
       ]);
     }, 1000);

@@ -455,7 +455,7 @@ select {
   padding-top: 60px;
   font-size: 60px;
   color: #7342d6;
-} /*the subtlety with this and the difference from the menu--open (see index.js) is that we don't need to do anything with the body###. the books actually DON'T exist### so we can simply add the loading class before the await and remove it after the await so that we can do whatever line 471 comment says ###*/
+} /*the subtlety with this and the difference from the menu--open (see index.js) is that we don't need to do anything with the body###. the books actually DON'T exist### so we can simply add the loading class before the await and remove it after the await so that we can do whatever The line 471 comment says ###*/
 
 .books__loading--spinner {
   display: none !important; /* css fonts website's display inline block caused it to still show as a small icon on the side*/
